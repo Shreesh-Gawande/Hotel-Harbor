@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page/ Sign Up</title>
+    <link rel="stylesheet" href="Sign-up.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="F">
+    <form action="" class="Form">
+        <h1 class="H1">Hotel Harbour</h1>
+        <h2>Sign-Up</h2>
+        <section class="Fullname">
+         <label for="name">Full Name:</label>
+         <input class="Nameinput" type="text" id="name"  required>
+         </section>
+     <section class="Phone">
+         <label for="Phone">Phone No.</label>
+         <input class="Phoneinput" type="tel" id="Phone" pattern="[0-9]{10}">
+     </section>
+     <section class="Email">
+         <label for="emailid">E-mail ID:</label>
+         <input type="email" class="Emailid" id="emailid">
+     </section>
+     <section class="Password">
+        <label for="Pw">Password</label>
+        <input type="password" id="Pw" minlength="6" maxlength="12" >
+    </section >
+     <section class="Terms">
+         <label for="TermsAndCon">Do you Accept the Terms and Conditions</label>
+         <input type="checkbox" required  id="TermsAndCon">
+        </section>
+
+    <section class="Signupbutton"><button >
+        Submit
+    </button></section>
+     </form>
+   
+</section>
+    
+</body>
+</html>

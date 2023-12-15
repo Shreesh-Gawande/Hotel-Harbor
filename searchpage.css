@@ -1,0 +1,10 @@
+
+.Filter_Bar
+{
+    
+    width:1344px ;
+    height: 82.6px;
+    display: flex;
+    flex-direction: row;
+   
+}
